@@ -27,4 +27,4 @@ else
 end
 
 default['wkhtmltopdf']['archive']     = "wkhtmltox-#{node['wkhtmltopdf']['version']}_#{node['wkhtmltopdf']['platform']}.tar.xz"
-default['wkhtmltopdf']['mirror_url']  = "http://download.gna.org/wkhtmltopdf/0.12/#{node['wkhtmltopdf']['version']}/#{node['wkhtmltopdf']['archive']}"
+default['wkhtmltopdf']['mirror_url']  = "https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/#{node['wkhtmltopdf']['version']}/#{node['wkhtmltopdf']['archive']}"
